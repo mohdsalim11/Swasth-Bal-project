@@ -27,7 +27,7 @@ import {
   Cell,
 } from "recharts";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://swasth-bal-back.onrender.com";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("commander"); // 'commander', 'welfare', 'jawan', 'batch'
